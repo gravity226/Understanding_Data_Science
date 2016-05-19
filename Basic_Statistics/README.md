@@ -100,7 +100,7 @@ print max(values, key=values.count)
 > 0
 ```
 
-The your data set have multiple numbers with the same count the above example will only return one number.
+If your data set has multiple numbers with the same count the above example will only return one number.
 
 Example 2
 ``` python
