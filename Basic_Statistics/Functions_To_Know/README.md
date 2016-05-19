@@ -129,3 +129,5 @@ http://stackoverflow.com/questions/10797819/finding-the-mode-of-a-list-in-python
  - A measure of how spread out your data set is.
 
 <img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/sd_pic.gif" height="200">
+
+Reference (https://thekubicle.com/lessons/variance-and-standard-deviation)
