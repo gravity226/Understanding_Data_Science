@@ -5,6 +5,8 @@ Python 2.7
 ### Mean
  - Add up the values in a data set and divide by the number of values.
 
+<img src="https://github.com/gravity226/Understanding_Data_Science/imgs/mean_pic.png" height="200" width="200">
+
 Example 1
 ``` python
 # if you don't import division then you'll need to convert numbers to decimals before dividing
