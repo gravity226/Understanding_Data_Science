@@ -1,4 +1,4 @@
-# Basic Statistics
+# Functions to Know
 
 Python 2.7
 
@@ -7,7 +7,7 @@ Python 2.7
 
 <img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/mean_pic.png" height="100">
 
-Reference: http://www.ablongman.com/graziano6e/text_site/MATERIAL/statconcepts/central.htm
+(Reference: http://www.ablongman.com/graziano6e/text_site/MATERIAL/statconcepts/central.htm)
 
 Example 1
 ``` python
@@ -124,3 +124,8 @@ print mode
 Reference:<br />
 http://www.python-course.eu/lambda.php<br />
 http://stackoverflow.com/questions/10797819/finding-the-mode-of-a-list-in-python<br />
+
+### Standard Deviation
+ - A measure of how spread out your data set is.
+
+<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/sd_pic.png" height="200">
