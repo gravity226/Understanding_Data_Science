@@ -128,4 +128,4 @@ http://stackoverflow.com/questions/10797819/finding-the-mode-of-a-list-in-python
 ### Standard Deviation
  - A measure of how spread out your data set is.
 
-<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/sd_pic.png" height="200">
+<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/sd_pic.gif" height="200">
