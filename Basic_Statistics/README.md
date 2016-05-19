@@ -31,7 +31,7 @@ print values.mean()
 ```
 
 Potential problems with using the mean:
- - If there are outliers in your dataset it will skew the mean.
+ - If there are outliers your mean will be skewed.
 
 Example 3
 ``` python
@@ -89,3 +89,28 @@ print np.median(values)
 
 ### Mode
  - The value that appears most in a data set
+
+Example 1
+``` python
+values = [1, 0, 3, 0, 5, 3, 1, 0]
+
+print max(values, key=values.count)
+```
+``` output
+> 0
+```
+
+The your data set have multiple numbers with the same count the above example will only return one number.
+
+Example 2
+``` python
+values = [1, 2, 3, 2, 5, 1, 0]
+max_count = max(list(map(values.count, values)))
+
+mode = list(set(filter(lambda n: values.count(n) == max_count, values)))
+
+print mode
+```
+Reference:
+http://www.python-course.eu/lambda.php
+http://stackoverflow.com/questions/10797819/finding-the-mode-of-a-list-in-python
