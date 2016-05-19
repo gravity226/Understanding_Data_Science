@@ -7,7 +7,7 @@ Python 2.7
 
 <img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/mean_pic.png" height="100">
 
-(Reference: http://www.ablongman.com/graziano6e/text_site/MATERIAL/statconcepts/central.htm)
+(img Reference: http://www.ablongman.com/graziano6e/text_site/MATERIAL/statconcepts/central.htm)
 
 Example 1
 ``` python
@@ -130,4 +130,4 @@ http://stackoverflow.com/questions/10797819/finding-the-mode-of-a-list-in-python
 
 <img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/sd_pic.gif" height="200">
 
-Reference (https://thekubicle.com/lessons/variance-and-standard-deviation)
+(img Reference: https://thekubicle.com/lessons/variance-and-standard-deviation)
