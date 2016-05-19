@@ -166,3 +166,48 @@ print data.mode().values
 <img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/sd_pic.gif" height="200">
 
 (img Reference: https://thekubicle.com/lessons/variance-and-standard-deviation)
+
+Example 1
+``` python
+from __future__ import division
+
+data = [2, 4, 6, 8]
+data_sum = 0
+
+mean = sum(data) / len(data)
+
+for n in data:
+    data_sum += (n - mean) ** 2
+
+std = ( data_sum / len(data) ) ** .5
+
+print std
+```
+``` output
+> 2.2360679775
+```
+
+Example 2
+``` python
+import numpy as np
+
+data = np.array([2, 4, 6, 8])
+
+print data.std()
+```
+``` output
+> 2.2360679775
+```
+
+Example 3
+``` python
+import pandas as pd
+
+# This method uses the Bessel-corrected sample standard deviation which uses (N - 1) instead of N in the denominator
+data = pd.DataFrame([2, 4, 6, 8])
+
+print data.std().values
+```
+``` output
+> [ 2.5819889]
+```
