@@ -14,9 +14,9 @@ Example 1
 # if you don't import division then you'll need to convert numbers to decimals before dividing
 from __future__ import division
 
-values = [1, 4, 2, 7, 9]
+data = [1, 4, 2, 7, 9]
 
-mean = sum(values) / len(values)
+mean = sum(data) / len(data)
 
 print mean
 ```
@@ -27,23 +27,34 @@ print mean
 Example 2
 ``` python
 import numpy as np
-values = np.array([1, 4, 2, 7, 9])
+data = np.array([1, 4, 2, 7, 9])
 
-print values.mean()
+print data.mean()
 ```
 ``` output
 > 4.6
 ```
 
+Example 3
+``` python
+import pandas as pd
+data = pd.DataFrame([1, 4, 2, 7, 9])
+
+print data.mean().values
+```
+``` output
+> [ 4.6]
+```
+
 Potential problems with using the mean:
  - If there are outliers your mean will be skewed.
 
-Example 3
+Example 4
 ``` python
 import numpy as np
-values = np.array([3, 4, 7, 2, 4, 43])
+data = np.array([3, 4, 7, 2, 4, 43])
 
-print values.mean()
+print data.mean()
 ```
 ``` output
 > 10.5
@@ -54,10 +65,10 @@ print values.mean()
 
 Example 1
 ``` python
-values = [23, 12, 27, 99, 14, 37, 15]
-values = sorted(values)
+data = [23, 12, 27, 99, 14, 37, 15]
+data = sorted(data)
 
-print values[len(values) / 2]
+print data[int(len(data) / 2)]
 ```
 ``` output
 > 23
@@ -67,14 +78,14 @@ If you have an even number of sample values then 2 numbers should be returned
 
 Example 2
 ``` python
-values = [1, 2, 1, 6, 3, 0, 5, 5]
-values = sorted(values)
+data = [1, 2, 1, 6, 3, 0, 5, 5]
+data = sorted(data)
 
-middle = len(values) / 2
+middle = int(len(data) / 2)
 if len(values) % 2. == 0:
-    print values[middle - 1: middle + 1]
+    print data[middle - 1: middle + 1]
 else:
-    print values[middle]
+    print data[middle]
 ```
 ``` output
 > [2, 3]
@@ -84,12 +95,24 @@ Example 3
 ``` python
 import numpy as np
 
-values = [1, 2, 1, 6, 3, 0, 5, 5]
+data = [1, 2, 1, 6, 3, 0, 5, 5]
 
-print np.median(values)
+print np.median(data)
 ```
 ``` output
 > 2.5
+```
+
+Example 4
+``` python
+import pandas as pd
+
+data = pd.DataFrame([1, 2, 1, 6, 3, 0, 5, 5])
+
+print data.median().values
+```
+``` output
+> [ 2.5]
 ```
 
 ### Mode
@@ -97,9 +120,9 @@ print np.median(values)
 
 Example 1
 ``` python
-values = [1, 0, 3, 0, 5, 3, 1, 0]
+data = [1, 0, 3, 0, 5, 3, 1, 0]
 
-mode = max(values, key=values.count)
+mode = max(data, key=data.count)
 
 print mode
 ```
@@ -111,10 +134,10 @@ If your data set has multiple numbers with the same count, the above example wil
 
 Example 2
 ``` python
-values = [1, 2, 3, 2, 5, 1, 0]
-max_count = max(list(map(values.count, values)))
+data = [1, 2, 3, 2, 5, 1, 0]
+max_count = max(list(map(data.count, data)))
 
-mode = list(set(filter(lambda n: values.count(n) == max_count, values)))
+mode = list(set(filter(lambda n: data.count(n) == max_count, data)))
 
 print mode
 ```
@@ -124,6 +147,18 @@ print mode
 Reference:<br />
 http://www.python-course.eu/lambda.php<br />
 http://stackoverflow.com/questions/10797819/finding-the-mode-of-a-list-in-python<br />
+
+Example 3
+``` python
+import pandas as pd
+data = pd.DataFrame([1, 2, 3, 2, 5, 1, 0])
+
+print data.mode().values
+```
+``` output
+> [[1]
+   [2]]
+```
 
 ### Standard Deviation
  - A measure of how spread out your data set is.
