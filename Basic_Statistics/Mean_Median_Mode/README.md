@@ -5,7 +5,7 @@ Python 2.7
 ### Mean
  - Add up the values in a data set and divide by the number of values.
 
-<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/mean_pic.png" height="200">
+<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/mean_pic.png" height="100">
 
 Example 1
 ``` python
