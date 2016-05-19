@@ -7,6 +7,8 @@ Python 2.7
 
 <img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/mean_pic.png" height="100">
 
+Reference: http://www.ablongman.com/graziano6e/text_site/MATERIAL/statconcepts/central.htm
+
 Example 1
 ``` python
 # if you don't import division then you'll need to convert numbers to decimals before dividing
