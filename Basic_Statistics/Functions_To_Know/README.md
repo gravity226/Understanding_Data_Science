@@ -160,6 +160,25 @@ print data.mode().values
    [2]]
 ```
 
+### Lambda
+ - 1 / mean
+
+<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/lambda_pic.jpg" height="100">
+
+(img Reference: http://deanhume.com/home/blogpost/useful-lambda-expressions/14)
+
+Example 1
+``` python
+import numpy as np
+
+data = np.array([2, 12, 6, 2, 10])
+
+print 1 / data.mean()
+```
+``` output
+> 0.15625
+```
+
 ### Standard Deviation
  - A measure of how spread out your data set is.
 
