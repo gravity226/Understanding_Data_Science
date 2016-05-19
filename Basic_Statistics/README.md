@@ -111,6 +111,9 @@ mode = list(set(filter(lambda n: values.count(n) == max_count, values)))
 
 print mode
 ```
-Reference:
-http://www.python-course.eu/lambda.php
-http://stackoverflow.com/questions/10797819/finding-the-mode-of-a-list-in-python
+``` output
+> [1, 2]
+```
+Reference:<br />
+http://www.python-course.eu/lambda.php<br />
+http://stackoverflow.com/questions/10797819/finding-the-mode-of-a-list-in-python<br />
