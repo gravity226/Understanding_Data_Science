@@ -15,6 +15,9 @@ mean = sum(values) / len(values)
 
 print mean
 ```
+``` output
+> 4.6
+```
 
 ##### Example 2
 ``` python
@@ -23,11 +26,14 @@ values = np.array([1, 4, 2, 7, 9])
 
 print values.mean()
 ```
+``` output
+> 4.6
+```
 
- - Potential problems with using the mean:
-  - If there are very large outliers in your dataset it will skew the mean.
+Potential problems with using the mean:
+ - If there are very large outliers in your dataset it will skew the mean.
 
-##### Example 2
+##### Example 3
 ``` python
 import numpy as np
 values = np.array([3, 4, 7, 2, 4, 43])
