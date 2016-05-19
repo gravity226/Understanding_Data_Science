@@ -1,4 +1,4 @@
-[Understanding Data Science](https://github.com/gravity226/Understanding_Data_Science) -> [Basic Statistics](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics) -> Mean_Median_Mode
+# Basic Statistics
 
 Python 2.7
 
