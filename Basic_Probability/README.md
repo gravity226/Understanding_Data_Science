@@ -1,30 +1,24 @@
-# Basic Statistics
+# Basic Probability
 
 Python 2.7
 
 ### Sections
  - [Probability of an Event](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#probability-of-an-event)
+ - [Roll the Dice](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#roll-the-dice)
 
 
 ### Probability of an Event
- -
 "The probability of event A is the number of ways event A can occur divided by the total number of  possible outcomes." [reference](http://www.mathgoodies.com/lessons/vol6/intro_probability.html)
 
-<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/mean_pic.png" height="100">
+I think it's best to explain probability by giving examples.
 
-(img Reference: http://www.ablongman.com/graziano6e/text_site/MATERIAL/statconcepts/central.htm)
-
+### Roll the Dice
 Example 1
+
+What is the probability of rolling one number on a six sided fair die?
 ``` python
-# if you don't import division then you'll need to convert numbers to decimals before dividing
-from __future__ import division
-
-data = [1, 4, 2, 7, 9]
-
-mean = sum(data) / len(data)
-
-print mean
+# coming soon...
 ```
 ``` output
-> 4.6
+> ?
 ```

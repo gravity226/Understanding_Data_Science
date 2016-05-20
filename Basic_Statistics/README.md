@@ -8,9 +8,11 @@ Python 2.7
  - [Mode](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#mode)
  - [Lambda](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#lambda)
  - [Standard Deviation](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#standard-deviation)
+ - [Frequency](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#frequency)
+ - [Probability](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#probability)
 
 ### Mean
- - Add up the values in a data set and divide by the number of values.
+ - Add up the values in a dataset and divide by the number of values.
 
 <img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/mean_pic.png" height="100">
 
@@ -68,7 +70,7 @@ print data.mean()
 ```
 
 ### Median
- - The middle value in your data set.
+ - The middle value in your dataset.
 
 Example 1
 ``` python
@@ -123,7 +125,7 @@ print data.median().values
 ```
 
 ### Mode
- - The value that appears most in a data set
+ - The value that appears most in a dataset
 
 Example 1
 ``` python
@@ -137,7 +139,7 @@ print mode
 > 0
 ```
 
-If your data set has multiple numbers with the same count, the above example will only return one number.
+If your dataset has multiple numbers with the same count, the above example will only return one number.
 
 Example 2
 ``` python
@@ -187,7 +189,7 @@ print 1 / data.mean()
 ```
 
 ### Standard Deviation
- - A measure of how spread out your data set is.
+ - A measure of how spread out your dataset is.
 
 <img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/sd_pic.gif" height="200">
 
@@ -238,3 +240,57 @@ print data.std().values
 ``` output
 > [ 2.5819889]
 ```
+
+### Frequency
+ - How often a value appears in a dataset.
+
+Example 1
+``` python
+data = ['apple', 'pear', 'banana', 'apple', 'grape', 'apple']
+word = 'apple'
+
+print "%i in %i" % (data.count(word), len(data))
+```
+``` output
+> 3 in 6
+```
+
+### Probability
+ - Frequency / length of the dataset
+
+Example 1
+
+How many times does the word 'apple' appear in the dataset?
+``` python
+from __future__ import division
+
+data = ['apple', 'pear', 'banana', 'apple', 'grape', 'apple']
+word = 'apple'
+
+print data.count(word) / len(data)
+```
+``` output
+> .5
+```
+
+Example 2
+
+How many times does each word appear in the dataset?
+``` python
+from __future__ import division
+
+data = ['apple', 'pear', 'banana', 'apple', 'grape', 'apple']
+
+for word in set(data):
+    print "%s appears %f percent of the time." % (word, data.count(word) / len(data))
+```
+``` output
+> .5
+```
+
+
+
+
+
+
+#
