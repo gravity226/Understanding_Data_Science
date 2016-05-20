@@ -285,7 +285,10 @@ for word in set(data):
     print "%s appears %f percent of the time." % (word, data.count(word) / len(data))
 ```
 ``` output
-> .5
+> grape appears 0.166667 percent of the time.
+> pear appears 0.166667 percent of the time.
+> apple appears 0.500000 percent of the time.
+> banana appears 0.166667 percent of the time.
 ```
 
 
