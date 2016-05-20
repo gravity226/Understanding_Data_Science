@@ -11,6 +11,7 @@ Python 2.7
  - [Frequency](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#frequency)
  - [Probability](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#probability)
  - [Interquartile Range](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#interquartile-range)
+ - [Interquartile Mean](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#interquartile-mean)
 
 ### Mean
  - Add up the values in a dataset and divide by the number of values.
