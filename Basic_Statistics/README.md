@@ -319,6 +319,7 @@ Example 1 (Almost the same as above)
 What is the mean of the 90th percentile of the dataset?
 ``` python
 from __future__ import division
+
 data = [ 1, 2, 6, 100, 15, 3, 9, 8, 6, 3, 22, 4, 17 ]
 p = .05  # take off .05 from the top and bottom
 
