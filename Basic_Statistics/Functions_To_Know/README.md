@@ -222,7 +222,8 @@ Example 3
 ``` python
 import pandas as pd
 
-# This method uses the Bessel-corrected sample standard deviation which uses (N - 1) instead of N in the denominator
+# This method uses the Bessel-corrected sample standard deviation
+#   which uses (N - 1) instead of N in the denominator
 data = pd.DataFrame([2, 4, 6, 8])
 
 print data.std().values
