@@ -3,6 +3,11 @@
 Python 2.7
 
 ### Sections
+ - [Mean](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#mean)
+ - [Median](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#median)
+ - [Mode](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#mode)
+ - [Lambda](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#lambda)
+ - [Standard Deviation](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#standard-deviation)
 
 ### Mean
  - Add up the values in a data set and divide by the number of values.
