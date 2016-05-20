@@ -8,10 +8,11 @@ I recently completed a data science immersive program but I am still a little fu
 
 ### Table of Contents
  - [Basic Statistics](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics)
- - [Basic Probability]()
- - [Distributions]()
- - [A/B Testing]()
- 
+ - [Basic Probability](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Probability)
+ - Distributions
+ - Central Limit Theorem vs Bootstrapping
+ - A/B Testing
+
 ### Tech Used:
  - Python 2.7
  - Numpy (Python library)
