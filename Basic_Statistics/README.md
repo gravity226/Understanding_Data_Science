@@ -10,6 +10,7 @@ Python 2.7
  - [Standard Deviation](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#standard-deviation)
  - [Frequency](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#frequency)
  - [Probability](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#probability)
+ - [Interquartile Range](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#interquartile-range)
 
 ### Mean
  - Add up the values in a dataset and divide by the number of values.
@@ -260,7 +261,7 @@ print "%i in %i" % (data.count(word), len(data))
 
 Example 1
 
-How many times does the word 'apple' appear in the dataset?
+What is the probability of seeing the word 'apple' in the dataset?
 ``` python
 from __future__ import division
 
@@ -275,7 +276,7 @@ print data.count(word) / len(data)
 
 Example 2
 
-How many times does each word appear in the dataset?
+What is the probability of seeing each word in the dataset?
 ``` python
 from __future__ import division
 
@@ -291,6 +292,42 @@ for word in set(data):
 > banana appears 0.166667 percent of the time.
 ```
 
+### Interquartile Range
+ - One way of removing outliers from your data is by looking at the interquartile range.  Doing this will allow you to chop off anything above or below a certain percentage.
+
+Example 1
+
+What is the 90th percentile of the dataset?
+``` python
+data = [ 1, 2, 6, 100, 15, 3, 9, 8, 6, 3, 22, 4, 17 ]
+p = .05  # take off .05 from the top and bottom
+
+data = list(filter(lambda n: n >= max(data) * p and n <= max(data) * (1 - p) and n, data))
+
+print sorted(data)  # don't need to sort, it's just easier to read
+```
+``` output
+> [6, 6, 8, 9, 15, 17, 22]
+```
+
+### Interquartile Mean
+ - Look at the mean of the interquartile range.  This could help to give a better understanding of where most of your data is.  
+
+Example 1 (Almost the same as above)
+
+What is the mean of the 90th percentile of the dataset?
+``` python
+from __future__ import division
+data = [ 1, 2, 6, 100, 15, 3, 9, 8, 6, 3, 22, 4, 17 ]
+p = .05  # take off .05 from the top and bottom
+
+data = list(filter(lambda n: n >= max(data) * p and n <= max(data) * (1 - p) and n, data))
+
+print sum(data) / len(data)  # don't need to sort, it's just easier to read
+```
+``` output
+> 11.8571428571
+```
 
 
 
