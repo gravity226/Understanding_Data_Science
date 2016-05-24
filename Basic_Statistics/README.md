@@ -323,16 +323,12 @@ from __future__ import division
 data = [ 1, 2, 6, 100, 15, 3, 9, 8, 6, 3, 22, 4, 17 ]
 p = .05  # take off .05 from the top and bottom
 
-data = list(filter(lambda n: n >= max(data) * p and n <= max(data) * (1 - p) and n, data))
+inter_data = list(filter(lambda n: n >= max(data) * p and n <= max(data) * (1 - p) and n, data))
 
-print sum(data) / len(data)  # don't need to sort, it's just easier to read
+print "Data mean:", (sum(data) / len(data))
+print "Interquartile Mean:", (sum(inter_data) / len(inter_data))
 ```
 ``` output
-> 11.8571428571
+> Data mean: 15.0769230769
+> Interquartile Mean: 11.8571428571
 ```
-
-
-
-
-
-#
