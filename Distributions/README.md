@@ -17,6 +17,7 @@ Making a graph from a random dataset.
 ``` python
 import numpy as np
 import matplotlib.pyplot as plt
+plt.clf() # clear figure
 
 data = np.random.normal(size=1000)
 plt.hist(data, bins=25)
@@ -29,13 +30,15 @@ Example 2
 # reference: http://docs.scipy.org/doc/numpy-1.10.1/reference/generated/numpy.random.normal.html#numpy.random.normal
 import numpy as np
 import matplotlib.pyplot as plt
+plt.clf() # clear figure
 
 mu, sigma = 0, 0.1
 data = np.random.normal(mu, sigma, 1000)
 count, bins, ignored = plt.hist(data, bins=25, normed=True)
-plt.plot(bins, 1/(sigma * np.sqrt(2 * np.pi)) *
-               np.exp( - (bins - mu)**2 / (2 * sigma**2) ),
-         linewidth=2, color='r')
+plt.plot(bins,
+         1/(sigma * np.sqrt(2 * np.pi)) * np.exp( - (bins - mu)**2 / (2 * sigma**2) ),
+         linewidth=2,
+         color='r')
 plt.show()
 ```
 <img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/normalD2.png" height="200">
