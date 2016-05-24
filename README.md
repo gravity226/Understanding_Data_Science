@@ -9,7 +9,7 @@ I recently completed a data science immersive program but I am still a little fu
 ### Table of Contents
  - [Basic Statistics](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics)
  - [Basic Probability](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Probability)
- - Distributions
+ - [Distributions](https://github.com/gravity226/Understanding_Data_Science/tree/master/Distributions)
  - Central Limit Theorem vs Bootstrapping
  - A/B Testing
 
