@@ -3,7 +3,7 @@
 Python 2.7
 
 ### Sections
- - [Probability of an Event](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Statistics#probability-of-an-event)
+ - [Probability of an Event](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Probability#probability-of-an-event)
  - [Roll the Dice](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Probability#roll-the-dice)
  - [Flip a Coin](https://github.com/gravity226/Understanding_Data_Science/tree/master/Basic_Probability#flip-a-coin)
 
