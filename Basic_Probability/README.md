@@ -43,6 +43,54 @@ print dice_sides.count(one_num) / len(dice_sides)
 > 0.166666666667
 ```
 
+Example 3
+
+What is the probability of rolling two sixes with two dice?
+``` python
+from __future__ import division
+from itertools import product
+
+dice_sides = [ x[0] + x[1] for x in product('123456', repeat=2) ]  # two dice with 6 sides each
+two_sixes = '66'
+
+print dice_sides.count(two_sixes) / len(dice_sides)
+```
+``` output
+> 0.0277777777778
+```
+
+Example 4
+
+If you're give two dice, a six sided die and a thirty two sided die, what is the probability of rolling something that adds up to greater than 10?
+``` python
+from __future__ import division
+from itertools import product
+
+greater_than = 10
+dice = [ 1 if sum(x) > greater_than else 0 for x in list(product(xrange(1,7), xrange(1,33)))]
+
+print sum(dice) / len(dice)
+```
+``` output
+> 0.796875
+```
+
+Example 5
+
+What is the probability of rolling two six sided dice where the result adds to seven?
+``` python
+from __future__ import division
+from itertools import product
+
+adds_to = 7
+dice = [ 1 if sum(x) == adds_to else 0 for x in list(product(xrange(1,7), repeat=2))]
+
+print sum(dice) / len(dice)
+```
+``` output
+> 0.166666666667
+```
+
 ### Flip a Coin
 Example 1
 
