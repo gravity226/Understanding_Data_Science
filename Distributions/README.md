@@ -8,7 +8,7 @@ Python 2.7
 ### Normal Distribution
  - "In probability theory, the normal (or Gaussian) distribution is a very common continuous probability distribution. Normal distributions are important in statistics and are often used in the natural and social sciences to represent real-valued random variables whose distributions are not known."([reference](https://en.wikipedia.org/wiki/Normal_distribution))
 
-<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/normald.jpg" height="100">
+<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/normald.jpg" height="300">
 ([img reference](http://www.benlcollins.com/spreadsheets/histograms-normal-distribution/))
 
 Example 1
