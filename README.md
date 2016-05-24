@@ -15,4 +15,6 @@ I recently completed a data science immersive program but I am still a little fu
 
 ### Tech Used:
  - Python 2.7
- - Numpy (Python library)
+ - Numpy
+ - Pandas
+ - Itertools
