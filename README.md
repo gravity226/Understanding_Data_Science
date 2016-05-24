@@ -13,7 +13,7 @@ I recently completed a data science immersive program but I am still a little fu
  - Central Limit Theorem vs Bootstrapping
  - A/B Testing
 
-### Tech Used:
+### Tech Used
  - Python 2.7
  - Numpy
  - Pandas
