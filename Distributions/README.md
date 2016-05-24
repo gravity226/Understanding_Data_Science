@@ -22,4 +22,4 @@ data = np.random.normal(size=1000)
 plt.hist(data, bins=25)
 plt.show()
 ```
-<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/normalD1.png" height="300">
+<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/normalD1.png" height="200">
