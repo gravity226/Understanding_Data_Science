@@ -4,7 +4,7 @@ Python 2.7
 
 ### Sections
  - [Summary](https://github.com/gravity226/Understanding_Data_Science/tree/master/Linear_Regression#summary)
- - [Formula](https://github.com/gravity226/Understanding_Data_Science/tree/master/Linear_Regression#equation)
+ - [Linear Equation](https://github.com/gravity226/Understanding_Data_Science/tree/master/Linear_Regression#linear-equation)
 
 
 ### Summary
@@ -20,4 +20,23 @@ Cons:
  - Doesn't work in many real world scenarios
  - Data tends to be too complex for a linear model
 
-### Equation
+### Linear Equation
+I think we all learned the y = mx + b equation back in high school algebra.  :)
+
+<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/ymxb.bmp" height="100"><br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
