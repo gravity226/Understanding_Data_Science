@@ -5,7 +5,7 @@ Python 2.7
 ### Sections
  - [Summary](https://github.com/gravity226/Understanding_Data_Science/tree/master/Linear_Regression#summary)
 
- - <b>Linear Form</b>
+<b>Linear Form</b>
  - [Linear Equation](https://github.com/gravity226/Understanding_Data_Science/tree/master/Linear_Regression#linear-equation)
 
 
