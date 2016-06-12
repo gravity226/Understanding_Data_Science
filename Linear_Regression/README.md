@@ -24,7 +24,7 @@ Cons:
 I think we all learned the y = mx + b equation back in high school algebra.  :)
 
 <img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/ymxb.bmp" height="100"><br />
-
+[img Reference](https://www.tes.com/lessons/Xn3MVjd8CqjH-Q/y-mx-b)
 
 
 
