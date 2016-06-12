@@ -30,7 +30,7 @@ I think we all learned the y = mx + b equation back in high school algebra. Once
 [img Reference](https://www.tes.com/lessons/Xn3MVjd8CqjH-Q/y-mx-b)
 
 Finding the slope and y-intercept:
-<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/slope_intercept.jpg" height="250"><br />
+<img src="https://github.com/gravity226/Understanding_Data_Science/blob/master/imgs/slope_intercept.jpg" height="150"><br />
 [img Reference](http://d32ogoqmya1dw8.cloudfront.net/images/introgeo/teachingwdata/LeastSqEq2.jpg)
 
 
